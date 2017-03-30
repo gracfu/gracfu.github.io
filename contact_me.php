@@ -38,10 +38,10 @@ if($_POST["submit"]) {
 
 <body>
 	<header>
-		<a href='home_page.html' class='logo'><img alt='gratiana_fu_logo' id='logo' src='images/logo.png'></a>
+		<a href='index.html' class='logo'><img alt='gratiana_fu_logo' id='logo' src='images/logo.png'></a>
 		<nav class='top'>
 			<ul>
-				<li><a href='home_page.html'>Home</a></li>
+				<li><a href='index.html'>Home</a></li>
 				<li><a href='about_me.html'>About Me</a></li>
 				<li><a href='my_resume.html'>Resume</a></li>
 				<li><a href='my_projects.html'>Projects</a></li>
