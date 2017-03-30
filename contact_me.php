@@ -24,6 +24,15 @@ if($_POST["submit"]) {
 	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
 	<link rel='icon' href='icons/web_icon.png'>
 	<link rel='stylesheet' href='stylesheets/portfolio_style.css'>
+	<script>
+  		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  		ga('create', 'UA-96550258-1', 'auto');
+  		ga('send', 'pageview');
+	</script>
 </head>
 
 
@@ -46,7 +55,7 @@ if($_POST["submit"]) {
 	</div>
 
 	<div class='thanks'>
-		<?php echo $thankYou; ?>
+		<p><?php echo $thankYou; ?></p>
 	</div>
 
 	<footer>
