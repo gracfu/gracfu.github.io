@@ -10,7 +10,7 @@ body {
   	margin: 2px;
 }
 
-h1, h2, p, form {
+h1, h2, h3, p, form {
 	padding-top: 5px;
 	padding: 5px 0px 5px 10px;
 	margin: 0;
@@ -154,6 +154,10 @@ input[type=submit] {
 .bottom li {
 	display: inline-block;
 	padding: 0 5px;
+}
+
+.caption {
+	text-align: center;
 }
 
 #current_link {
